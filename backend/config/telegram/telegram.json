@@ -1,0 +1,12 @@
+{
+  "name": "VDEF ID TEST",
+  "username": "vietdefi_test_bot",
+  "url": "https://t.me/vietdefi_test_bot",
+  "token": "5451042649:AAEIgE279nS6KTxfywGukaXYUQrgNyAuHxY",
+  "logger_on": true,
+  "log_listeners": [
+    1609297571
+  ],
+  "super_admin": 422043718,
+  "admins": []
+}
