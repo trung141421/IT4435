@@ -1,2 +1,2 @@
-rootProject.name = "vdef"
+rootProject.name = "Learning"
 

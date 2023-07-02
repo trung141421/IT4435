@@ -1,0 +1,53 @@
+1. Register:
+{
+    "username" : "trmhieu",
+    "password" : "hieu2002"
+}
+{
+    "username" : "trmhieu2",
+    "password" : "hieu2002"
+}
+{
+    "username" : "admin",
+    "password" : "hieu2002"
+}
+
+2.login
+
+3. Info by month
+{
+    "month" : 10,
+    "year" : 2022
+}
+
+
+4. shiftRegistration
+{
+    "week_timestamp" : 0,
+    "schedule" : [1,0,0,1,1,1,1,1,1,0,0]
+}
+
+5. requestDevice
+(body)
+{
+    "device_id" : "1",
+    "secret_code" : "444"
+}
+
+6. acceptDevice
+{
+    "device_id" : "1",
+    "secret_code" : "444",
+    "user_id" : 1
+}
+
+
+10. update Information
+{
+    "name" : "Trinh Minh Hieu",
+    "gender" : "1",
+    "date_of_birth" : "14-07-2002",
+    "email" : "hieudivine@gmail.com",
+    "phone_number" : "03887484291",
+    "position" : "dev"
+}

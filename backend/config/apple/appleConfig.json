@@ -1,7 +1,0 @@
-{
-  "client_id": "vn.vdef.appleid.serviceid",
-  "redirect_uri": "https://ttvnapi.com/v1/ap-recall",
-  "team_id": "27X456B5L4",
-  "key_id": "GUP7DX4B83",
-  "APPLE_APPLEID_URL": "https://appleid.apple.com"
-}
