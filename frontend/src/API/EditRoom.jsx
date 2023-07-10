@@ -5,9 +5,10 @@ const instance = axios.create({
     responseType: 'json'
   });
 
-const editRoom = (name, address, description, price, renter_name) => {
+const editRoom = (id, name, address, description, price, renter_name) => {
     return(
         instance.post('/room/editroom', {
+            room_id: id,
             name: name,
             address: address,
             description: description,

@@ -5,16 +5,9 @@ const instance = axios.create({
     responseType: 'json'
   });
 
-const getRoom = () => {
-    return(
-        instance.get('/room/getroom')
-          .then(function (response) {
-            console.log(response);
-          })
-          .catch(function (error) {
-            console.log(error);
-          })
-    )
+  async function getRoom() {
+    const response = await instance.get('/room/getroom')
+    return response.data
 }
 
 export default getRoom;

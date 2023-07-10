@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: 7896/civ3-workspace:2.0
+    steps:
+      - checkout
+      - run: cp .env.example .env
+
+      # composer cache
+      - restore_cache:
+          keys:
+            - vendor-v1-{{ checksum "composer.lock" }}
+      - run:  npm install
+      - save_cache:
+          key: vendor-v1-{{ checksum "composer.lock" }}
+          paths:
+            - vendor
+
+      # run test
+      - run: npm start
